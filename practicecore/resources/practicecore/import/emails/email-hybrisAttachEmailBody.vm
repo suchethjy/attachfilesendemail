@@ -1,0 +1,30 @@
+## messageSource=classpath:/practicecore/messages/email-forgottenPassword_$lang.properties
+#macro(genHtmlLinkStartTag $url)
+<a href="$url"><font color="#666666">
+#end
+#macro(genHtmlLinkEndTag)
+</font></a>
+#end
+#macro(genHtmlLink $url $textColor $bodyContent)
+<a href="$url"><font color="$textColor">$bodyContent</font></a>
+#end
+
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body bgcolor="#ffffff"
+	
+			Hey, ${ctx.displayName}  !
+			
+			<div>
+			
+			Your cart becomes gold cart purchase for 200 currenct, 
+			By adding cart greater than 200 currency
+			</div>
+			<div>
+			Thanks & Regards,
+			Hybris sales team
+			</div>
+</body>
+</html>

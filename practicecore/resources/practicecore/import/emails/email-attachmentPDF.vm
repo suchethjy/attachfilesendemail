@@ -1,0 +1,18 @@
+## messageSource=classpath:/practicecore/messages/email-generatemail_$lang.properties
+<html>
+    <head>
+    </head>
+
+    <body bgcolor="#ffffff">
+
+        <h1>email-attachmentTaskBody.vm </h1>
+       
+        <h1>Sign ${ctx.messages.signature}</h1>
+		<h1>Status ${ctx.messages.status}</h1>
+		<h1>Submit ${ctx.messages.submission}</h1>
+		<h1>Conclude ${ctx.messages.conclusion}</h1>
+
+        <p>This is a Generating Email from Hybris to print details</p>
+
+    </body>
+</html>
